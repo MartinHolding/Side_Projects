@@ -1,0 +1,18 @@
+/* General styles */
+
+
+/* header - text needs centering*/
+header {
+    width: 100%;
+    background-color: darkgrey;
+    text-align: center;
+    height: 100px;
+}
+
+/* instructions */
+/* Needs the list elements centering. Only the text of the list is centered not the numbers right now */
+#instructions {
+    width: 100%;
+    text-align: center;
+}
+
