@@ -1,0 +1,49 @@
+<!--Picture Scrambler Project - The aim is to create a small website with javascript functionality
+that will allow a user to upload an image, split it into equal pieces, scramble it and allow the user 
+arrange the image back to its original state 
+TO DO:
+
+1. Set up basic website structure 
+    - Header section with title of site 
+    - Div section with game instructions
+    - Div section for the image with buttons for uploading and scrambling
+2. Basic CSS styling
+3. Javascript integration
+    - Take an image, resize it to fit the div set aside for it
+    - split the image into n parts 
+    - mix those parts up (can I assign the image parts to an array and then randomise the indexes?)
+    - Allow user input to rearrange the image (onclick events?)
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='style.css' rel='stylesheet' type='text/css'/>
+        <title>Picture Scrambler</title>
+    </head>
+
+    <body>
+        <header id="title-banner">
+            <h1>Picture Scrambler!</h1>
+        </header>
+
+        <main>
+            <div id ="instructions">
+                <h2>Instructions</h2>
+                <ol>
+                    <li>Upload an image!</li>
+                    <li>Click scramble!</li>
+                    <li>Solve the puzzle!</li>
+                </ol>
+            </div>
+            <div id ="image-container">
+
+            </div>
+            <div id ="buttons">
+                <button type="button">Upload</button>
+                <button type="button" hidden>Scramble</button> <!-- Hide the scramble button until image uploaded -->
+            </div>
+        </main>
+    </body>
+
+</html>
